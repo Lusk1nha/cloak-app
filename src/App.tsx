@@ -11,7 +11,6 @@ function App() {
     queryKey: ["timezone"],
     queryFn: initializeGeolocalization,
     refetchOnWindowFocus: false,
-    
   });
 
   async function initializeGeolocalization() {
